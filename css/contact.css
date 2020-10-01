@@ -1,0 +1,129 @@
+/* Start Contact */
+
+.contact {
+    background-color: #111;
+    position: relative;
+}
+
+.btn_on_top {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    padding: 25px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn_on_top:hover {
+    background-color: #dadada;
+}
+
+@media (max-width:991px) {
+    .btn_on_top {
+        display: none;
+    }
+}
+
+.btn_on_top p {
+    /* color:  */
+    font-weight: 700;
+    margin: 0;
+}
+
+.contact h2,
+.contact .contactInfo p {
+    color: #fff
+}
+
+.formBx {}
+
+.formBx form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formBx form h3,
+.contactInfo h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.formBx form input,
+textarea {
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    outline: none;
+    background: #222;
+    color: #fff;
+}
+
+.formBx form textarea {
+    min-height: 200px;
+}
+
+.formBx form input::placeholder,
+.formBx form textarea::placeholder {
+    color: #999
+}
+
+.formBx form input[type="submit"] {
+    max-width: 100px;
+    background: #2196f3;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contactInfo {}
+
+.contactInfoBx .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.contactInfoBx .box .icon {
+    min-width: 40px;
+    padding-top: 4px;
+    color: #fff;
+    justify-items: center;
+    font-size: 24px;
+}
+
+.contactInfoBx .box .text {}
+
+.contactInfoBx .box .text h3 {
+    color: #2196f3
+}
+
+.contactInfoBx .box .text p {
+    color: #fff
+}
+
+
+/* End Contact */
+
+
+/* Start Address Info */
+
+.address_image {
+    /* position: relative;
+    margin: 3rem 0;
+    height: 500px;
+    width: 100%;
+    background-image: url(https://www.w3schools.com/w3images/map.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; */
+}
+
+
+/* End Address Info */

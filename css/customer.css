@@ -1,0 +1,34 @@
+/* Start service */
+
+.customer {
+    padding: 30px;
+    background-color: #111;
+}
+
+.customer .heading {
+    color: #fff
+}
+
+.customer .customerBx {
+    text-align: center;
+    background-color: #232123;
+    padding: 40px 20px
+}
+
+.customer .customerBx img {
+    width: 72px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.customer .customerBx h2 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.customer .customerBx p {
+    color: #fff;
+}
+
+
+/* End */

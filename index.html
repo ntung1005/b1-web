@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/comment.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/customer.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/service.css">
+
+</head>
+
+<body>
+
+    <header class="sticky" id="myHeader">
+        <div class="container">
+            <div class="header-layout">
+                <a href="" class="logo">Portfolio</a>
+                <div class="toggle" onclick="toggleMenu();"></div>
+                <ul class="menu">
+                    <li><a href="#about" class="btn-header">Giới thiệu</a></li>
+                    <li><a href="#analytic" class="btn-header">Thống kê</a></li>
+                    <li><a href="#customer" class="btn-header">Khách hàng</a></li>
+                    <li><a href="#address_image" class="btn-header">Bản đồ</a></li>
+                    <li><a href="#contact" class="btn-header">Liên hệ</a></li>
+                    <li><a href="" class="btn-header">Đăng nhập</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="banner">
+        <div class="container">
+            <div class="textBx">
+                <h2>Xin chào,Tôi là<br><span>Nguyễn Văn Tùng</span></h2>
+                <h3>Lập trình viên Frontend</h3>
+                <a href="#" class="btn">Thông tin về tôi</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="heading">
+                <h2>Thông tin về tôi</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 contentBx w50">
+                    <h3>I'm a Front end Web Develop</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum.</p>
+                </div>
+
+                <div class="col-lg-6 col-sm-12 w50">
+                    <img src="img/img1.jpg" alt="" class="img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="analytic" class="analytic">
+        <div class="container">
+            <div class="heading">
+                <h2>Thống kê</h2>
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12 w50">
+                        <canvas id="myChart" width="100%" height="60"></canvas>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 w50">
+                        <h3>I'm a Front end Web Develop</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="customer" id="customer">
+        <div class="container">
+            <div class="heading">
+                <h2>Khách Hàng</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+            </div>
+            <div class="row mx-md-n5">
+                <div class="col-md-4 col-xs-12">
+                    <div class="customerBx">
+                        <img src="https://static.nhadatmoi.net/default/user.png" alt="">
+                        <h2>Nguyen Van A</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-xs-12">
+                    <div class="customerBx">
+                        <img src="https://static.nhadatmoi.net/default/user.png" alt="">
+                        <h2>Nguyen Van B</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-xs-12">
+                    <div class="customerBx">
+                        <img src="https://static.nhadatmoi.net/default/user.png" alt="">
+                        <h2>Nguyen Van C</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="address_image" class="address_image">
+        <div class="container">
+            <div class="heading">
+                <h2>Địa chỉ</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.6989528406802!2d106.73052881474949!3d10.834334692282269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527d487959559%3A0xd9c0011c7fd85b8f!2zUGjhuqFtIFbEg24gxJDhu5NuZyBNb2JpbGU!5e0!3m2!1sen!2s!4v1601564139268!5m2!1sen!2s"
+                width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container-fluid">
+            <div class="btn_on_top" onclick="scrollToTop()">
+                <p>VỀ ĐẦU</p>
+            </div>
+            <!-- <div class="heading white">
+                <h2>Liên hệ</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            </div> -->
+
+            <div class="row">
+                <div class="col-md-3 col-sm-12 col-xs-12 contactInfo">
+
+                    <div class="row contactInfoBx">
+                        <div class="col-md-12 col-sm-4 col-xs-4 box">
+                            <div class="icon">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+                            <div class="text">
+                                <h3>Địa chỉ</h3>
+                                <p>Tổ 13 phường Yên Nghĩa, <br>quận Hà Đông <br>thành phố Hà Nội</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 col-sm-4 col-xs-4 box">
+                            <div class="icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="text">
+                                <h3>Số điện thoại</h3>
+                                <p>0385947261</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 col-sm-4 col-xs-4 box">
+                            <div class="icon">
+                                <i class="fa fa-envelope-o"></i>
+                            </div>
+                            <div class="text">
+                                <h3>Email</h3>
+                                <p>ntung7965@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12 col-xs-12 formBx">
+                    <form action="">
+                        <h3>Message Me</h3>
+                        <input type="text" placeholder="Full Name">
+                        <input type="email" placeholder="Email">
+
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                        <input type="submit" value="Send">
+
+                    </form>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v8.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat" attribution=install_email page_id="2585801611438970" theme_color="#ff7e29"
+        logged_in_greeting="Xin chào! Tôi có thể giúp gì cho bạn ?"
+        logged_out_greeting="Xin chào! Tôi có thể giúp gì cho bạn ?">
+    </div>
+
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+<script src="js/header.js"></script>
+<script src="js/index.js"></script>
+<script src="js/chart.js"></script>
+
+
+</html>
