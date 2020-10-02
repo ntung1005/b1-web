@@ -10,16 +10,6 @@ function toggleMenu() {
     menu.classList.toggle('active')
 }
 
-// var header = document.getElementById("myHeader");
-// var btns = header.getElementsByClassName("btn-header");
-// for (var i = 0; i < btns.length; i++) {
-//     btns[i].addEventListener("click", function() {
-//         var current = document.getElementsByClassName("active");
-//         current[0].className = current[0].className.replace(" active", "");
-//         this.className += " active";
-//     });
-// }
-
 // ---------------------- ---------------------- ---------------------- ---------------------- ----------------------
 
 // Cache selectors
@@ -28,7 +18,7 @@ function toggleMenu() {
 
 var lastId,
     topMenu = $("#myHeader"),
-    topMenuHeight = topMenu.outerHeight() + 1,
+    topMenuHeight = topMenu.outerHeight() + 60,
     // All list items
     menuItems = topMenu.find("a"),
     // Anchors corresponding to menu items
@@ -70,3 +60,35 @@ $(window).scroll(function() {
             .end().filter("[href=#" + id + "]").parent().addClass("active");
     }
 });
+
+
+// Login 
+let isLogin = false;
+
+let account = ``;
+
+if(isLogin){
+    account =`
+    <div class="dropdown show">
+        <a class="btn-header dropdown-toggle" type="button" id="dropdownMenuButton"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+            style="border:none;cursor: pointer;">
+            <div style="align-items: center;display: flex;">
+                <img src="https://static.nhadatmoi.net/default/user.png" alt=""
+                    style="width: 40px;height: 40px;border-radius: 50%;margin-right: 12px;">
+                <p style="margin: 0;">ntung7965@...</p>
+            </div>
+        </a>
+    </div>
+`;
+}else{
+    account = `
+    <a href="./pages/login.html" class="btn-header">Đăng nhập</a>
+    `;
+}
+
+let classAcountArea = document.getElementsByClassName("account-area");
+
+for(let i=0;i<classAcountArea.length;i++){
+    classAcountArea[i].innerHTML = account;
+}

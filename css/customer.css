@@ -12,7 +12,8 @@
 .customer .customerBx {
     text-align: center;
     background-color: #232123;
-    padding: 40px 20px
+    padding: 40px 20px;
+    margin-bottom: 16px;
 }
 
 .customer .customerBx img {

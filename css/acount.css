@@ -1,5 +1,4 @@
 
-
 img{
     width: 100%;
   }
@@ -30,6 +29,8 @@ img{
     width: 250px;
     outline: none;
     padding: 5px 10px;
+    margin-bottom: 8px;
+    border:1px solid #aaa
 }
 
 .form-content button{
